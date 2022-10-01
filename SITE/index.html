@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang pt-br>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VS TRAVEL</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css"
+    </head>
+    <body>
+<header>
+
+<div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>VS</span>TRAVEL</a>
+
+    <nav class="navbar">
+       <a href="#home">Home</a>
+       <a href="#servicos">Serviços</a>
+       <a href="#destino">Destino</a>
+       <a href="#promocoes">Promoções</a>
+       <a href="#contatos">Contatos
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="procure aqui...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Digite seu e-mail"> 
+        <input type="password" class="box" placeholder="Digite sua senha">
+        <input type="submit" value="login" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Lembre-se de mim</label>
+        <p>Não possui uma conta? <a href="#">Registre-se aqui</a></p>
+        <p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+       
+
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Conheça o Brasil e o mundo</h3>
+        <p>Descubra novos lugares</p>
+        <a href="#" class="btn">saiba mais</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+       
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<section class="services" id="servicos">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>ç</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+ 
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hotéis</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Comidas e Bebidas</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Segurança</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Viaje o mundo todo</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Viagens rápidas</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Novas aventuras</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="book" id="destino">
+
+    <h1 class="heading">
+        <span>d</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>n</span>
+        <span>o</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/8405.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Para onde você vai</h3>
+                <input type="text" placeholder="Nome do seu destino">
+            </div>
+            <div class="inputBox">
+                <h3>Quantos dias</h3>
+                <input type="number" placeholder="Número de dias">
+            </div>
+            <div class="inputBox">
+                <h3>Partida</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Chegada</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="pesquise agora">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="packages" id="promocoes">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>r</span>
+        <span>o</span>
+        <span>m</span>
+        <span>o</span>
+        <span>ç</span>
+        <span>õ</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pacotes </h3>
+                <p>3 diárias a partir de</p>
+            
+                <div class="price"> R$620 <span>R$700</span> </div>
+                <a href="#" class="btn">Compre agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Passagens </h3>
+                <p>a partir de</p>
+              
+                <div class="price"> R$120 <span>R$200</span> </div>
+                <a href="#" class="btn">Compre agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Hotéis </h3>
+              
+                <p>3 diárias a partir de</p>
+                <div class="price"> R$230 <span>R$300</span> </div>
+                <a href="#" class="btn">Compre agora</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contatos">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>t</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/10142.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nome">
+                <input type="email" placeholder="e-mail">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="número">
+                <input type="text" placeholder="assunto">
+            </div>
+            <textarea placeholder="mensagem" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Enviar mensagem">
+        </form>
+
+    </div>
+    
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Minha conta</h3>
+            <a href="#">Meu passaporte</a>
+            <a href="#">Minhas viajens</a>
+            <a href="#">Meu perfil</a>
+        </div>
+        <div class="box">
+            <h3>Sobre nós</h3>
+            <a href="#">Nosso telefone </a>
+            <a href="#">Trabalhe conosco</a>
+            <a href="#">Conheça nossa história</a>
+        </div>
+        <div class="box">
+            <h3>links</h3>
+            <a href="#">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Destino</a>
+            <a href="#">Promoções</a>
+            <a href="#">Contatos</a>
+           
+        </div>
+        <div class="box">
+            <h3>Redes Sociais</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+</section>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
